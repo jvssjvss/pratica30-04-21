@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Imobiliaria de Paco</title>
+  </head>
+  <body>
+    <!--Header-->
+    <!--Imagenes de la flecha, line y nombre Imobiliaria de Paco-->
+    <header>
+      <img src="img/flecha.svg" alt="haz clic para volver a la página anterior" class="header__flecha" />
+      <section class="header__lineTitle">
+        <h1>Imobiliaria de Paco</h1>
+        <img src="img/lineaPaco.svg" alt="" class="header__linea"/>
+      </section>
+    </header>
+    <!--Main-->
+    <main>
+     <!--Primero h2-->
+      <h2>Información</h2>
+      <!--Conjunto de imágenes de la casa-->
+      <section class="main__imagenesCasas">
+        <!--Imagen principal-->
+        <picture class="casas grande">
+        <source srcset="img/casa.jpg 1x, img/casa@2x.jpg, 2x">
+        <img  src="" alt="imagen de presentacion de la casa" />
+        </picture>
+        <!--División para poner las imágenes más pequeñas en columnas-->
+        <section class="main__imagenesCasas__columnas">
+        <!--División 1 para poner las imágenes más pequeñas en líneas-->
+          <section class="main__imagenesCasas__lineas">
+            <img class="casas pequena" src="img/casaSala1.jpg" alt="sala de la casa" />
+            <img class="casas pequena" src="img/casaSala2.jpg" alt="sala de la casa en perspectiva" />
+          </section>
+          <!--División 2 para poner las imágenes más pequeñas en líneas-->
+          <section class="main__imagenesCasas__lineas">
+            <img class="casas pequena" src="img/casaCocina.jpg" alt="cosina de la casa" />
+            <img class="casas pequena" src="img/casaButaca.jpg" alt="foto de una butaca" />
+          </section>
+        </section>
+      </section>
+      <!--Segundo h2-->
+      <h2>Descripción</h2>
+
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+        architecto deleniti excepturi repellat aut similique dicta delectus
+        placeat modi ratione, sed error illum eveniet optio esse velit
+        veritatis. Sapiente, tenetur.
+      </p>
+      <!--Sección que organiza el ícono de la casa y el tercero h2 en una linea-->
+      <section class="main__iconTexto">
+        <img src="img/casita.svg" alt="alquiller económico" class="icon" />
+        <h2>1 año alquiller</h2>
+      </section>
+      <h3>Descripción de...</h3>
+      <a class="main__button" href="#">Siguiente</a>
+    </main>
+    <!--Footer con copyright-->
+    <footer>
+        <img class="footer__redesSociales" src="img/instagram.svg" alt="">
+        <img class="footer__redesSociales" src="img/pinterest.svg" alt="">
+        <img class="footer__redesSociales" src="img/facebook.svg" alt="">
+        <h6>&copy;copyRigh, Imobiliaria de Paco, 2021</h6>
+    </footer>
+  </body>
+</html>

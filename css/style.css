@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(242, 159, 5, 1);
+    color: rgba(124, 123, 123, 1);
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 5%;
+}
+header{
+    display: flex;
+    height: 15.62vh;;
+    box-sizing: border-box;
+
+}
+.header__flecha{
+    width: 1.5625rem;
+    position: relative;
+    top: -20%;
+    left: 3%;
+
+}
+.header__lineTitle{
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.header_linea{
+
+    width: 50vw;
+
+}
+
+.main__button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(242, 159, 5, 1);
+    border-radius: .625rem;
+    flex-grow: 1;
+    line-height: 2.25rem;
+    width: 90%;
+    margin-bottom: 7.5vh;
+    align-self: center;
+}
+main{
+    background-color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+}
+p{
+    background-color: 
+    rgba(217, 217, 217, 1);
+    border-radius: 10px;
+    align-self: center;
+    padding: 5%;
+}
+.icon{
+    height: 1.25rem;
+}
+h3{
+    color: rgba(242, 159, 5, 1);
+    font-size: .875rem;
+    padding-left: 1.25rem;
+    padding-bottom: 10vh;
+}
+h2{
+    font-size: 1.125rem;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.main__imagenesCasas{
+    display: flex;
+    align-items: flex-start;
+}
+.main__imagenesCasas__columnas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.main__imagenesCasas__lineas{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.main__iconTexto{
+    display: flex;
+    align-items: center;
+}
+.grande, .pequena{
+    padding-right: 5%;
+}
+footer{
+    padding-top: 5%;
+    height: 6.25rem;
+    line-height: 2rem;
+    text-align: center;
+}
+h6{
+    color: rgba(255, 255, 255, 1);
+
+}
+.footer__redesSociales{
+    height: 3.125rem;
+}
